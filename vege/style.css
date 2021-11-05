@@ -37,3 +37,16 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+.hlavni_recept {
+display: flex;
+min-height: 200px;
+background-image: url("images/salat.jpg");
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-family: 'Raleway';
+color: white;
+}
