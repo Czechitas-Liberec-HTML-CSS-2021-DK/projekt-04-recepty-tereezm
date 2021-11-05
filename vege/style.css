@@ -38,65 +38,120 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
-
-
-h1 {
-    font-size: 1.75rem;
-    font-weight: 800;
-    font-family: 'Raleway';
-color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.nadpis {
-    font-family: 'Raleway';
+
+.recept {
+    min-height: 90px;
+    display: flex;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+
+.recept h2, .recept .kategorie, .recept .komentare {
+    padding: 0.5rem;
+}
+
+.recept h2 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 1.2rem;
-    position: relative;
-    bottom: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;    
 }
 
-.kategorie {
+#hlavni_recept h2 {
+    font-size: 1.75rem;
+}
+
+.recept .kategorie {
     font-family: 'Source Sans Pro', sans-serif;
-font-size: 0.8rem;
-font-weight: 400;
-color: white;
-padding: 0.5rem;
-
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.komentare {
+.recept .komentare {
     font-family: 'Source Sans Pro', sans-serif;
-font-size: 0.8rem;
-font-weight: 400;
-color: white;
-padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    position:absolute;
+    top: 0;
+right: 0;
 }
 
-.hlavni_recept {
-    display: flex;
+
+
+#hlavni_recept {
     min-height: 200px;
     background-image: url("images/salat.jpg");
-    }
-.maly_recept2{
+}
+
+#chlebicek{
     background-image: url("images/chlebicek.jpg");
-    min-height: 90px;
-display: flex;
 }
 
-.maly_recept3 {
+#pita {
     background-image: url("images/cizrna.jpg");
-    min-height: 90px;
-    display: flex;
 }
 
-.maly_recept4 {
+#tacos {
     background-image: url("images/tacos.jpg");
-    min-height: 90px;
-    display: flex;
 }
 
-.maly_recept5 {
+#burger {
     background-image: url("images/burger.jpg");
-    display: flex;
-    min-height: 90px;
+}
+
+@media (min-width: 480px) {
+
+    .recept h2, .recept .kategorie, .recept .komentare {
+        padding: 1.25rem;
     }
+    .recept h2 {
+        font-size: 1.5rem;}
+
+    #hlavni_recept h2 {
+            font-size: 2rem;
+        }
+    #hlavni_recept {
+            min-height: 250px;}
+    .recept {
+        min-height: 150px; 
+    }
+
+    }
+
+    @media (min-width: 860px) {
+        .recept h2, .recept .kategorie, .recept .komentare {
+            padding: 1.25rem;
+        }
+        .recept h2 {
+            font-size: 1.75rem;}
+    
+        #hlavni_recept h2 {
+                font-size: 3rem;
+            }
+        #hlavni_recept {
+                min-height: 400px;}
+        .recept {
+            min-height: 200px; 
+        }
+
+    }
+
+
+
+
+
+
