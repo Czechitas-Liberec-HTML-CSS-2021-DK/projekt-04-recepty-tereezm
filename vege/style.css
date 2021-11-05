@@ -38,11 +38,7 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
-.hlavni_recept {
-display: flex;
-min-height: 200px;
-background-image: url("images/salat.jpg");
-}
+
 
 h1 {
     font-size: 1.75rem;
@@ -50,3 +46,57 @@ h1 {
     font-family: 'Raleway';
 color: white;
 }
+
+.nadpis {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 20px;
+}
+
+.kategorie {
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 0.8rem;
+font-weight: 400;
+color: white;
+padding: 0.5rem;
+
+}
+
+.komentare {
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 0.8rem;
+font-weight: 400;
+color: white;
+padding: 0.5rem;
+}
+
+.hlavni_recept {
+    display: flex;
+    min-height: 200px;
+    background-image: url("images/salat.jpg");
+    }
+.maly_recept2{
+    background-image: url("images/chlebicek.jpg");
+    min-height: 90px;
+display: flex;
+}
+
+.maly_recept3 {
+    background-image: url("images/cizrna.jpg");
+    min-height: 90px;
+    display: flex;
+}
+
+.maly_recept4 {
+    background-image: url("images/tacos.jpg");
+    min-height: 90px;
+    display: flex;
+}
+
+.maly_recept5 {
+    background-image: url("images/burger.jpg");
+    display: flex;
+    min-height: 90px;
+    }
