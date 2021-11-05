@@ -48,7 +48,7 @@ body {
     min-height: 90px;
     display: flex;
     background-size: cover;
-    background-position:center;
+    background-position:center !important;
     position: relative;
 }
 
